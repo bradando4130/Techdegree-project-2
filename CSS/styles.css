@@ -1,0 +1,114 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif, Arial, Helvetica;
+    background-color: whitesmoke;
+    line-height: 1.3;
+    border: 1px solid red;
+}
+
+p {
+    padding: 20px 2px 20px 2px;
+    margin: auto;
+    width: 90%;
+}
+img {
+    width: 90%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    
+
+}
+
+/* header styles */
+
+.header {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-image {
+    width: 70%;
+    margin: 30px 0 20px 0;
+}
+
+
+
+.intro {
+    
+}
+
+/* nav styles */
+
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    text-align: center;
+    margin: 12px 12px;
+    padding: 10px 0;
+    color: black;
+    list-style-type: none;
+    width: 90%;
+    font-size: 1.4em;
+}
+
+/* portfolio styles */
+
+.main-container {
+
+}
+
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer styles */
+
+.footer {
+    text-align: center;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-nav-item {
+    text-align: center;
+}
+
+.footer-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* media queries */
