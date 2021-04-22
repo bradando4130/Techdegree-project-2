@@ -11,22 +11,28 @@
 <body>
   
     <header class="header">
-        <h1 id="home" class="title">Student Name</h1>
-        <nav class="main-nav">
-            <ul class="nav">
-                <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a href="#contact">Contact</a></li>
-            </ul>  
-        </nav>
-        <img src="images/responsive-layout-profile.png" alt="Profile image" class="profile-image">
-        <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        <div class="title-nav">
+            <h1 id="home" class="title">Student Name</h1>
+            <nav class="main-nav">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                    <li class="nav-item"><a href="https://teamtreehouse.com/techdegree">Treehouse</a></li>
+                </ul>  
+            </nav>
+        </div>
+        <div class="intro">
+            <img src="images/responsive-layout-profile.png" alt="Profile image" class="profile-image">
+            <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        </div>
     </header> 
     
    
    
     <main class="main-container">
         <h2 id="portfolio">Portfolio</h2>
+        <section class="wrapper">
             <div class="portfolio-flex">
                 <img src="images/portfolio-1.png" alt="Image of marketing page project" class="portfolio-image"> 
                 <h3>Marketing Page</h3>
@@ -62,13 +68,14 @@
                 <h3>Calculator</h3>
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
             </div>
+        </section>
 
     </main>
 
     <footer>
         <div class="footer">
             <h3 id="contact">Contact</h3>
-            <p>If you're interested in chatting or want more information about what I've been working oin, I'd love to hear from you!</p>
+            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone <b>+1(111)555-1234</b></p>
             <p>Email <b>email@yoursite.com</b></p>
         </div>
@@ -77,7 +84,7 @@
 
         <div class="footer-tag">
             <h4>Student Name</h4>
-            <a href="#home"><h4>Back to top</h4></a>
+            <a href="#home" id="back-to-top"><h4>Back to top</h4></a>
             <ul class="footer-nav">
                 <li class="footer-nav-item"><a href="#home">Home</a></li>
                 <li class="footer-nav-item"><a href="#portfolio">Portfolio</a></li>
