@@ -5,7 +5,6 @@
     line-height: 1.3;
     margin: 0;
     padding: 0;
-   /* border: 1px solid red; */
 }
 html {
     background-color: whitesmoke;
@@ -14,7 +13,7 @@ html {
 p {
     padding: 10px 0 20px 0;
     margin: auto;
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
 img {
@@ -86,7 +85,18 @@ a:link, a:visited {
     width: 90%;
     font-size: 1.4em;
     background-color: white;
+    transition: 0.3s linear;
 }
+
+.nav-item:hover {
+    background-color: #8c473f;
+}
+
+.nav-item:hover > a {
+    color: white;
+}
+
+
 
 /* portfolio styles */
 
@@ -102,6 +112,7 @@ a:link, a:visited {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 /* footer styles */
@@ -110,7 +121,7 @@ a:link, a:visited {
     text-align: center;
     background-color: whitesmoke;
     padding: 30px 0 20px 0;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .footer-nav {
@@ -152,7 +163,6 @@ a:link, a:visited {
     .portfolio-flex {
         flex: 1 40%;
         justify-content: space-around;
-        padding-left:;
     }
 
     .footer-nav {
@@ -197,6 +207,10 @@ a:link, a:visited {
     .nav-item {
         padding: 20px;
         text-align: center;
+    }
+
+    .intro {
+        font-size: 1.1em;
     }
 
 
