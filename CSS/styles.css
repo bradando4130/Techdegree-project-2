@@ -127,6 +127,7 @@ a:link, a:visited {
 .footer-nav {
     display: none;
     list-style: none;
+    font-size: 0.8em;
 }
 
 .footer-nav-item {
@@ -152,6 +153,8 @@ a:link, a:visited {
     }
     .nav-item {
         background-color: whitesmoke;
+        padding: 20px;
+        text-align: center;
     }
     .intro {
         display: flex;  
@@ -167,6 +170,7 @@ a:link, a:visited {
 
     .footer-nav {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
@@ -202,11 +206,6 @@ a:link, a:visited {
     .nav {
         justify-content: space-between;
         margin: auto;
-    }
-
-    .nav-item {
-        padding: 20px;
-        text-align: center;
     }
 
     .intro {
